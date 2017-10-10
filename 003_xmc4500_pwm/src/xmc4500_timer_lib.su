@@ -1,7 +1,0 @@
-xmc4500_timer_lib.c:30:6:CCU40_0_IRQHandler	4	static
-xmc4500_timer_lib.c:45:6:CCU41_0_IRQHandler	8	static
-xmc4500_timer_lib.c:63:7:setup_timer	8	static
-xmc4500_timer_lib.c:81:7:setup_timer_timeout	8	static
-xmc4500_timer_lib.c:100:9:_delayus	16	static
-xmc4500_timer_lib.c:128:9:_delay	16	static
-xmc4500_timer_lib.c:158:9:_timeout	16	static

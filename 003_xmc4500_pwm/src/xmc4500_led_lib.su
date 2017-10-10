@@ -1,3 +1,0 @@
-xmc4500_led_lib.c:21:7:setup_LED	8	static
-xmc4500_led_lib.c:35:8:toggle	16	static
-xmc4500_led_lib.c:61:6:pwm	16	static

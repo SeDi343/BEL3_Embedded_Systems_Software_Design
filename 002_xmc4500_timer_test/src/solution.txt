@@ -1,2 +1,0 @@
-Solution: Controls LED with Hardware ON/OFF
-          _delayus() above 3ms, 1ms is 4ms in real

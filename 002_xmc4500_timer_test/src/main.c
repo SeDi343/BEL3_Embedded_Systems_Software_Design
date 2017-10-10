@@ -48,7 +48,7 @@ void _timeoutfunction (void);
 /********************************************************************/
 void _timeoutfunction()
 {
-	toggle (2);
+	toggle (1);
 }
 
 int main (void)
@@ -62,9 +62,9 @@ int main (void)
 	while (1) {
 		//_delayus (1);
 		//_delay (0,1,1);
-		//_timeout (0,5,1,_timeoutfunction);
-		_delay (0, 1, 1);
-		toggle (1);
+	    _timeout (0,5,1,_timeoutfunction);
+		//_delay (0, 1, 1);
+		//toggle (1);
 	}
 }
 

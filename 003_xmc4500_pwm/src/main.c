@@ -76,7 +76,7 @@ int main (void)
 	SysTick_Config(SystemCoreClock / TICKS_PER_SECOND);
 
 	while (1) {
-		_timeout (0, 1, 1, _timeoutfunction);	//INC or DEC the value
+		_timeout (0, 0, 9, _timeoutfunction);	//INC or DEC the value
 		pwm(value);								//Create the PWM Signal
 	}
 }
@@ -88,7 +88,7 @@ void _timeoutfunction()
 {
 	if (togglemode == 0)
 	{
-		value=value+9;
+		value=value+1;
 		if (value >= 99)
 		{
 			togglemode = 1;
@@ -97,7 +97,7 @@ void _timeoutfunction()
 	
 	if (togglemode == 1)
 	{
-		value=value-9;
+		value=value-1;
 		if (value <= 0)
 		{
 			togglemode = 0;
