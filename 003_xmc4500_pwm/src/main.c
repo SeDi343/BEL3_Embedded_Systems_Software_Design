@@ -54,7 +54,7 @@ void _timeoutfunction (void);
 void SysTick_Handler(void);
 
 #define TICKS_PER_SECOND 10
-#define TIMEWAIT 30
+#define TIMEWAIT 5000
 
 uint8_t value;			//Variable for the PWM value in percent
 uint8_t togglemode;		//Variable to toggle the PWM from inc to dec
@@ -76,7 +76,7 @@ int main (void)
 	SysTick_Config(SystemCoreClock / TICKS_PER_SECOND);
 
 	while (1) {
-		_timeout (0, 0, 9, _timeoutfunction);	//INC or DEC the value
+		_timeout (0, 0, 18, _timeoutfunction);	//INC or DEC the value
 		pwm(value);								//Create the PWM Signal
 	}
 }
