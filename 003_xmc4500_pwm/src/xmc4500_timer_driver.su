@@ -1,0 +1,9 @@
+core_cm4.h:1670:22:__NVIC_EnableIRQ	16	static
+xmc4500_timer_driver.c:20:6:SCU_configuration	4	static
+xmc4500_timer_driver.c:49:7:configure_timer	8	static
+xmc4500_timer_driver.c:137:7:configure_timer_timeout	8	static
+xmc4500_timer_driver.c:224:9:_delayus_configuration	24	static
+xmc4500_timer_driver.c:268:9:_delay_configuration	40	static
+xmc4500_timer_driver.c:319:9:_timeout_configuration	40	static
+xmc4500_timer_driver.c:365:6:reset_timer	4	static
+xmc4500_timer_driver.c:384:6:reset_timer_timeout	4	static
